@@ -1,0 +1,27 @@
+@import '../../colour-pallet.css';
+
+.entryDisplay{
+    background-color: var(--colour-display-bg-default);
+    width: 80%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.timestamp{
+    color: var(--color-muted-text-default);
+    font-size: 0.8rem;
+}
+
+.content{
+    font-size: 1.4rem;
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+     -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
