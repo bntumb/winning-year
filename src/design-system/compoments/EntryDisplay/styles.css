@@ -1,7 +1,7 @@
 @import '../../colour-pallet.css';
 
 .entryDisplay{
-    background-color: var(--colour-display-bg-default);
+    background-color: var(--colour-container-bg-default);
     width: 80%;
     padding: 15px;
     border-radius: 8px;
