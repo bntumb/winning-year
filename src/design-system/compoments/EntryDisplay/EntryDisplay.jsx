@@ -1,14 +1,14 @@
 import React from 'react'
 import  './styles.css'
+import returnEmptyOrValue from '@/design-system/validations/ReturnEmptyOrValue'
 
 function EntryDisplay({content, timestamp}) {
-    const contentData = content==''?content:'Nothing to display here'
-    const timestampData = timestamp==''?timestamp:'Nothing to display here'
+
   return (
     <div className='entryDisplay'>
         
-        <div className='content'>{contentData}</div>
-        <div className='timestamp'>{timestampData}</div>
+        <div className='content'>{returnEmptyOrValue({content})}</div>
+        <div className='timestamp'>{returnEmptyOrValue({timestamp})}</div>
         
     </div>
   )
