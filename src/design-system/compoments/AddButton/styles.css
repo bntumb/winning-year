@@ -1,0 +1,26 @@
+@import "../../colour-pallet.css";
+
+.addButton{
+    background-color: var(--color-defaultAddButton);
+    color: var(--color-text-white);
+    display:flex
+    ;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    max-width: 70px;
+    max-height: 70px;
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 2rem;
+
+    border-radius: 50%;
+
+
+}
+
+.addButton:hover{
+    cursor: pointer;
+    filter: brightness(95%);
+}
