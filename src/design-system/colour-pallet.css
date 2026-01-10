@@ -1,0 +1,24 @@
+:root {
+  /* Primary colors */
+  --color-primary: #2563eb;
+  --color-secondary: #9333ea;
+
+  /* Neutral colors */
+  --color-background: #ffffff;
+  --color-surface: #f9fafb;
+  --color-text: #111827;
+  --color-text-white: #eeeeee;
+  --color-muted: #6b7280;
+  
+
+  /* Status colors */
+  --color-success: #16a34a;
+  --color-warning: #f59e0b;
+  --color-error: #dc2626;
+
+  --color-defaultAddButton: #9c9c9c;
+}
+
+*{
+    transition: filter 0.3s ease-in-out;
+}
