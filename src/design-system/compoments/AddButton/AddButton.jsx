@@ -1,10 +1,12 @@
 import React from 'react'
 
+import { AddIcon } from '@/design-system/assets/icons/icons.js'
+
 import "./styles.css"
 const AddButton =()=>{
     return(
-        <div className='addButton'>
-             +
+        <div  className='addButton'>
+             <AddIcon/> 
         </div>
         )
 }
