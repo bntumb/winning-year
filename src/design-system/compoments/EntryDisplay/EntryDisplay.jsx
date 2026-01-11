@@ -6,10 +6,8 @@ function EntryDisplay({content, timestamp}) {
 
   return (
     <div className='entryDisplay'>
-        
-        <div className='content'>{returnEmptyOrValue({content})}</div>
-        <div className='timestamp'>{returnEmptyOrValue({timestamp})}</div>
-        
+        <div className='content'>{returnEmptyOrValue(content)}</div>
+        <div className='timestamp'>{returnEmptyOrValue(timestamp)}</div>
     </div>
   )
 }
