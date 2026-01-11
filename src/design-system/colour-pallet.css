@@ -7,11 +7,11 @@
   --color-secondary: #9333ea;
 
   /* Neutral colors */
-  --color-background: #ffffff;
+  --color-background: rgb(253, 298, 258, 1);
   --color-surface: #f9fafb;
   --color-text: #2f2f2f;
   --color-text-white: #eeeeee;
-  --color-muted-text-default: #6b7280;
+  --color-muted-text-default: #efefef;
   
 
   /* Status colors */

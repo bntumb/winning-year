@@ -2,7 +2,7 @@
 
 .entryDisplay{
     background-color: var(--colour-container-bg-default);
-    width: 80%;
+    width: 100%;
     padding: 15px;
     border-radius: 8px;
 }

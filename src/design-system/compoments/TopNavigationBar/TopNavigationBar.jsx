@@ -10,9 +10,7 @@ function TopNavigationBar() {
             <div className={'iconContainer logo'}>
                 <LinkWithIcon linkText={'Winning Year'} />
             </div>  
-            <div className={'iconContainer'}>
-                <NotificationButton/>
-            </div>  
+
         </div>
     </div>
   )
