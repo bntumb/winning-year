@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap");
+
+.topNavigationBar{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.iconContainer.logo {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.iconContainer{
+    cursor: pointer;
+}
