@@ -9,7 +9,7 @@
   /* Neutral colors */
   --color-background: #ffffff;
   --color-surface: #f9fafb;
-  --color-text: #111827;
+  --color-text: #2f2f2f;
   --color-text-white: #eeeeee;
   --color-muted-text-default: #6b7280;
   
@@ -34,5 +34,6 @@
 
 body{
     font-family: var(--font-mono);
+    color: var(--color-text);
 
 }
