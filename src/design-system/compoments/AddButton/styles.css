@@ -20,7 +20,12 @@
 
 }
 
+.addButton svg{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 .addButton:hover{
     cursor: pointer;
-    filter: brightness(95%);
+    filter: brightness(110%);
 }
