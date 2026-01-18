@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime-C939Jltz.js";import"./iframe-y8A5YkkG.js";function a({backgroundColor:r,children:o}){return t.jsx("div",{className:"card",style:{backgroundColor:r},children:o})}a.__docgenInfo={description:"",methods:[],displayName:"CardContainer"};export{a as C};

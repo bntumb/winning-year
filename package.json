@@ -2,13 +2,15 @@
   "name": "winning-year",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build -o ./docs"
+
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

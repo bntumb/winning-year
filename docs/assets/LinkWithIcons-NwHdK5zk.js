@@ -1,0 +1,1 @@
+import{j as i}from"./jsx-runtime-C939Jltz.js";import"./iframe-y8A5YkkG.js";import{r}from"./ReturnEmptyOrValue-C82JDzpc.js";const o=({icon:n,url:s,linkText:e})=>i.jsxs("div",{className:"linkContainer",children:[i.jsx("div",{className:"icon",children:n}),i.jsx("a",{href:r(s),children:r(e)})]});o.__docgenInfo={description:"",methods:[],displayName:"LinkWithIcon"};export{o as L};
