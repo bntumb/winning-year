@@ -8,4 +8,5 @@ export default {
 
 
 export const Primary = () => <AddButton label="Create" primary={true} />;
-export const Secondary = () => <AddButton label="Connect" />;
+export const Secondary = () => <AddButton/>;
+        

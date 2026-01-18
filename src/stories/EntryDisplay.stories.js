@@ -1,8 +1,22 @@
-import React from 'react';
-import EntryDisplay from '@/design-system/compoments/CardContainer/CardContainer';
+import EntryDisplay from '@/design-system/compoments/EntryDisplay/EntryDisplay';
+
 export default {
-  title: 'Componenets/EntryDisplay',
+  title: 'Components/EntryDisplay',
   component: EntryDisplay,
+  argTypes: {
+    content: {
+      control: 'text',
+    },
+    timestamp: {
+      control: 'text',
+    },
+  },
 };
 
-export const Default = () => <EntryDisplay />;
+const Template = (args) => <EntryDisplay {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {
+  content: 'This is a sample entry content',
+  timestamp: 'Jan 18, 2026 • 10:30 AM',
+};
