@@ -1,5 +1,5 @@
 import React from 'react'
-import EntryDisplay from '../EntryDisplay/EntryDisplay'
+import EntryDisplay from '../CardContainer/CardContainer'
 import './styles.css'
 function LabelledContainer({label, children}) {
   return (

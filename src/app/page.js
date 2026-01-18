@@ -1,7 +1,7 @@
 
 import HomePageHeaderSection from "@/design-system/compoments/HomePageHeaderSection/HomePageHeaderSection";
 import LabelledContainer from "@/design-system/compoments/LabelledContainer/LabelledContainer";
-import EntryDisplay from "@/design-system/compoments/EntryDisplay/EntryDisplay";
+import EntryDisplay from "@/design-system/compoments/CardContainer/CardContainer";
 
 export default function Home() {
   return (
