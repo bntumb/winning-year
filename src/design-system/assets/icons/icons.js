@@ -7,7 +7,7 @@ import Home from '../../../../public/home.png'
 const PublicIcon  =({url, altText})=>{
     return (
         <div>
-            <img style={{width:'2rem', display:'flex'} } src={url} alt={altText} />
+            <img style={{width:'1.3rem', display:'flex'} } src={url} alt={altText} />
         </div>
     )
 }
@@ -34,6 +34,15 @@ export const HomeIcon = () => {
 
 export const SettingsIcon = () => {
   return <PublicIcon url="/settings.svg" altText="Home" />
+}
+
+export const DiscoverIcon = () => {
+  return <PublicIcon url="/discover.svg" altText="Home" />
+}
+
+
+export const DashboardIcon = () => {
+  return <PublicIcon url="/dashboard.svg" altText="Home" />
 }
 
 // ----------------------------------------
