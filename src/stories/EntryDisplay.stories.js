@@ -1,5 +1,5 @@
 import React from 'react';
-import EntryDisplay from '@/design-system/compoments/EntryDisplay/EntryDisplay';
+import EntryDisplay from '@/design-system/compoments/CardContainer/CardContainer';
 export default {
   title: 'Componenets/EntryDisplay',
   component: EntryDisplay,
