@@ -25,24 +25,41 @@
     ;
     height: 100%;
     flex-direction: column;
+    padding: 0  .5rem;
 
     
 }
 
 .leftSideNavigationBar{
     height: 100vh;
-    border: 2px solid red;
         width:100%;
-        max-width:13rem
+        max-width:13rem;
 
+        display: flex;
+        flex-direction: column;
+        gap:50px
 }
 
 .top{
     flex-basis: 10%;
 }
 .center{
+    display: flex;
+    flex-direction: column;
     flex-basis: 80%;
+    gap:20px
 }
 .bottom{
     flex-basis: 10%;
+}
+
+.menuItem:hover{
+    background-color: rgb(213, 213, 213);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.menuItem{
+    padding: 8px;
+    cursor: pointer;
 }
