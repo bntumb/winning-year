@@ -6,7 +6,7 @@ import "./styles.css"
 const LinkWithIcon =({icon, url, linkText})=>{
     return(
         <div className='linkContainer'>
-             <div className='icon'>{returnEmptyOrValue(icon)}</div>
+             <div className='icon'>{icon}</div>
              <a href={returnEmptyOrValue(url)}>{returnEmptyOrValue(linkText)}</a>
         </div>
         )
