@@ -1,65 +1,54 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap");
-
-.topNavigationBar{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 20px;
+.leftSideNavigationBar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 24px 16px;
+  border-right: 1px solid #eee;
 }
 
-.iconContainer.logo {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 700;
-    font-size: 25px;
-    letter-spacing: -1px;
-    text-transform: uppercase;
+/* Logo */
+.logo {
+  flex-basis:20%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
 }
 
-.iconContainer{
-    cursor: pointer;
+/* Nav container */
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-.navContainter{
-    display: flex
-    ;
-    height: 100%;
-    flex-direction: column;
-    padding: 0  .5rem;
-
-    
+/* Center menu */
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-basis: 80%;
 }
 
-.leftSideNavigationBar{
-    height: 100vh;
-        width:100%;
-        max-width:13rem;
-
-        display: flex;
-        flex-direction: column;
-        gap:50px
+/* Menu item */
+.menuItem {
+  display: flex;
+  align-items: center;
 }
 
-.top{
-    flex-basis: 10%;
+/* Bottom (sticks to bottom) */
+.bottom {
+  margin-top: auto;
 }
-.center{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 80%;
-    gap:20px
-}
-.bottom{
-    flex-basis: 10%;
-}
+
 
 .menuItem:hover{
-    background-color: rgb(213, 213, 213);
+    background-color: rgba(234, 234, 234, 0.415);
     padding: 8px;
     border-radius: 8px;
 }
 
 .menuItem{
-    padding: 8px;
     cursor: pointer;
+        padding: 8px;
+
 }

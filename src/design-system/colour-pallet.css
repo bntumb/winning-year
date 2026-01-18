@@ -11,7 +11,7 @@
   --color-background: rgb(253, 298, 258, 1);
   --color-surface: #f9fafb;
   --color-text: #2f2f2f;
-  --color-text-white: #eeeeee;
+  --color-text-white: #ffffff;
   --color-muted-text-default: #efefef;
   
 
@@ -21,7 +21,7 @@
   --color-error: #dc2626;
 
   --color-defaultAddButton: #9c9c9c;
-  --colour-container-bg-default:#f5f5f5;
+  --colour-container-bg-default:#ffffff;
   --colour-border-default:#535353;
   --font-body:"Roboto", sans-serif;
     --font-mono: "IBM Plex Mono", monospace;
@@ -37,6 +37,7 @@
 body{
     font-family: var(--font-body);
     color: var(--color-text);
+    font-size: 1rem
 
 }
 
