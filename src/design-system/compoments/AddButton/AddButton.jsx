@@ -3,10 +3,16 @@ import React from 'react'
 import { AddIcon } from '@/design-system/assets/icons/icons.js'
 
 import "./styles.css"
-const AddButton =()=>{
+
+
+
+const AddButton =({label, primary, action})=>{
+
+    const mode = primary?'button--primary':'button--secondary';
     return(
-        <div  className='addButton'>
+        <div onClick={action} className={`addButton button ${mode}`}>
              <AddIcon/> 
+             <span>{label}</span>
         </div>
         )
 }
