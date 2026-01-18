@@ -4,13 +4,19 @@ export const metadata = {
   title: "Winning year",
 };
 import './globals.css'
+import LeftSideNavigationBar from "@/design-system/compoments/LeftSideNavigationBar/LeftSideNavigationBar";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <TopNavigationBar/>
+        <div className="layoutContainer">
+
+          <LeftSideNavigationBar/>
+
         <div className={'pageContent'}>
+
           {children}
+        </div>
         </div>
        
       </body>
