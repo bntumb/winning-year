@@ -2,14 +2,10 @@ import React from 'react'
 import  './styles.css'
 import returnEmptyOrValue from '@/design-system/validations/ReturnEmptyOrValue'
 
-function EntryDisplay({content, timestamp}) {
 
-  return (
-    <div className='entryDisplay'>
-        <div className='content'>{returnEmptyOrValue(content)}</div>
-        <div className='timestamp'>{returnEmptyOrValue(timestamp)}</div>
-    </div>
-  )
+function CardContainer({backgroundColor, children}) {
+  return <div className="card" style={{backgroundColor:backgroundColor}}>{children}</div>
+
 }
 
-export default EntryDisplay
+export default CardContainer
